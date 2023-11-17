@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KrediHesaplama</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="container">
+          <form action="#" id="form-kredi">
+          <h1>Lütfen tüm alanları eksiksiz doldurunuz.</h1>
+        <div class="kredi-tutari">
+          <p class="kredi-tutari-title">Çekilecek Kredi Tutarı :</p>
+          <input type="text" placeholder="TL" class="paraInput"/>
+        </div>
+        <div class="taksit-tur">
+          <p>Geri Ödenecek Vade :</p>
+          <select name="" id="vade">
+            <option value="" disabled selected>Vade</option>
+            <option value="vade12">12</option>
+            <option value="vade24">24</option>
+            <option value="vade36">36</option>
+            <option value="vade48">48</option>
+          </select>
+          <select name="" id="type">
+            <option value="" disabled selected>Kredi Türü</option>
+            <option value="ihityac">İhtiyaç Kredisi</option>
+            <option value="konut">Konut Kredisi</option>
+            <option value="tasit">Taşıt Kredisi</option>
+            <option value="kobi">KOBI Kredisi</option>
+          </select>
+        </div>
+          <button  class="btn hesapla-btn" type="submit">HESAPLA</button>
+          <h2></h2>
+          <h2 id="sonuc">Sonuç :</h2>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>

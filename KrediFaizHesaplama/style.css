@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ffffff;
+  position: relative;
+  height: 100vh;
+}
+
+.btn {
+  color: white;
+  background-color: #e21010;
+  height: 4rem;
+  width: 25rem;
+  font-weight: 500;
+  font-size: medium;
+  border: none;
+  border-radius: 6rem;
+  margin-top:2rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b5cfe0;
+  border: 2px solid #bcf6ff;
+  border-radius: 1.2rem;
+  width: 72rem;
+  height: 46rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#sonuc{
+   margin-top: 5rem;
+}
+
+#form-kredi p {
+  font-size: 2.5rem;
+  opacity: 0.8;
+  margin-top: 0.7rem;
+}
+.paraInput {
+  height: 3.5rem;
+  width: 50rem;
+  border: none;
+  border-radius: 6rem;
+  padding-left: 2.5rem;
+  margin-top: 0.7rem;
+  font-size: 1.7rem;
+}
+
+select {
+  height: 3.5rem;
+  width: 25rem;
+  border: none;
+  border-radius: 6rem;
+  padding: 0rem 2rem;
+  margin-top: 0.7rem;
+  margin-top: 0.7rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
